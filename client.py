@@ -16,7 +16,6 @@ from PyQt5.QtCore import *
 
 import sys
 
-
 class Window(QMainWindow):
 
 	def __init__(self):
