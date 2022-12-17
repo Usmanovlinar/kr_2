@@ -1,7 +1,7 @@
 import socket
 
 SERVER = "127.0.0.1"
-PORT = 8094
+PORT = 8097
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -92,7 +92,7 @@ class Window(QMainWindow):
 		push5.setGeometry(95, 200, 80, 40)
 
 		# creating a push button
-		push6 = QPushButton("5", self)
+		push6 = QPushButton("6", self)
 
 		# setting geometry
 		push6.setGeometry(185, 200, 80, 40)

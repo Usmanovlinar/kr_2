@@ -1,7 +1,7 @@
 import socket
 
 LOCALHOST = "127.0.0.1"
-PORT = 8094
+PORT = 8097
 
 server = socket.socket(socket.AF_INET,
                        socket.SOCK_STREAM)
