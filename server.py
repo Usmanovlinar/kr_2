@@ -20,8 +20,8 @@ while True:
     msg = data.decode()
     ans = eval(msg)
     ans = str(ans)
+    array.append(ans)
     clientConnection.send(ans.encode())
-
 
 
 clientConnection.close()
